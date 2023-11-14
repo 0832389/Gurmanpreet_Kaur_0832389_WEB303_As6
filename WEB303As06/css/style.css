@@ -1,0 +1,85 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: grey;
+    border: 2px white;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+
+}
+
+h1{
+    text-align: center;
+    font-size: large;
+    font-family: cursive;
+    margin: auto;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    font-size: medium;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+}
+
+button{
+    width: 100%;
+    background-color: pink;
+    font-size: medium;
+    margin-left: 0em;
+}
+
+.accord-panel{
+    display: none;
+}
+
+.accord{
+    list-style-type: decimal;
+}
+
+.tab-list{
+    margin: 0;
+    padding: 0;
+}
+
+.tab-list li{
+    display: inline-block;
+    background-color: antiquewhite;
+    margin: auto;
+    border: 2px white;
+}
+
+.tab-list li a{
+    display: block;
+    color: black;
+    padding: 3px 10px 3px 10px;
+    font-size: medium;
+}
+
+.tab-panel{
+    font-size: 1.2em;
+    margin: 1em 1em 1em 1em;
+    background-color: white;
+}
+
+.tab-list li.active{
+    background-color: white;
+}
+
+pre{
+    font-size:medium;
+}
